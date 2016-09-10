@@ -10,5 +10,5 @@ function ssha
         . $SSH_ENV_PATH > /dev/null
     end
 
-    exit 0
+    true
 end
