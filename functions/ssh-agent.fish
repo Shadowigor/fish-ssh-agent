@@ -1,5 +1,5 @@
 
-function ssha
+function ssha -d "Starts/adds the ssh-agent for fish"
     set SSH_ENV_PATH /tmp/ssha-fish-env.tmp
 
     if [ ! -e $SSH_ENV_PATH ]
